@@ -1,21 +1,72 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My first Vue page</title>
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justine's Ether</title>
+    <link rel="stylesheet" href="css/mystyle.css?version=0.2">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
 </head>
 <body>
 
-<h1>Vue Example</h1>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul class="nav-bar">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="interests.html">Interests</a>
+                </li>
+                <li>
+                    <a href="gallery.html">Gallery</a>
+                </li>
+                <li>
+                    <a href="resources.html">Resources</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
-<p>The message is taken from 'data' inside the Vue instance by writing {{ message }} inside the div with id="app".</p>
-
-<div id="app">
-  {{ message }}
-</div>
-
-<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-<script src="js/vue.js"></script>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background"></div>
+        <div class="hero-content">
+            <h1 class="hero-title"><i>Welcome to the Ether</i></h1>
+            <p class="hero-subtitle">— where thoughts can fleet and find its solace —</p>
+            <!-- <a class="hero-button" href="about.html" >uhm</a> -->
+            <div class="hero-icon">
+                <a href="https://tamanotchi.world/9607c">
+                <img src="https://tamanotchi.world/i/9607" 
+                    alt="It's tamaNOTchi! Click to feed!"> 
+                </a>
+                <span class="hero-tooltip">Feed Me!</span>
+            </div>
+        </div>
+    </section>
+    </div>
+        <!--
+        <h2 class="goals-in-life">Goals in Life</h2>
+            To be a software developer <br>
+            To fulfill true peace and happiness <br>
+            To achieve financial stability <br>
+            To strive for excellence <br>
+            <s><i style="color:lightblue">To have a homelab server perhaps</i></s><br>
+        -->        
+  <h1>Vue Example</h1>
+  <p>The message is taken from 'data' inside the Vue instance by writing {{ message }} inside the div with id="app".</p>
+    <div id="app">
+      {{ message }}
+    </div>
+        
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="js/vue.js"></script>
 
 
 </body>
