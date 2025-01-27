@@ -84,7 +84,8 @@
                     </div>
             </section>
         </main>
-    </template>
+    </div>
+</template>
     
     <script></script>
     <style></style>
