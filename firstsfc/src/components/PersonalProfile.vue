@@ -5,10 +5,14 @@
         </header>
         <main>
             <section class="main-content">
-                <h2> About Me </h2>
-                    <img src="Justine.png" alt="Justine" style="width:250px;height:260px">
-                    <p>I am Justine Denise Hernandez, a 3rd year Computer Science student from SS221, currently studying at Asia Pacific College.</p>
-                    <p>The field of Computer Science piqued my interest as I explored interesting software and websites during the pandemic.</p>
+                <div class="about">
+                    <h2> About Me </h2>
+                        <img src="Justine.png" alt="Justine" style="width:250px;height:260px">
+                        <p>I am Justine Denise Hernandez, a 3rd year Computer Science student from SS221, currently studying at Asia Pacific College.</p>
+                        <p>The field of Computer Science piqued my interest as I explored interesting software and websites during the pandemic.</p>
+                </div>
+
+                <div class="education">
                 <h2>Education</h2>
                     <table>
                         <tr>
@@ -36,56 +40,58 @@
                             <td>R&O Academy</td>
                         </tr>
                     </table>
-                
-                <h2>Achievements</h2>
-                <ul>
-                    <li>Honor Student (from Elem to College)</li>
-                    <li>APC-JPCS Director of Operations (2024-)</li>
-                    <li>Animation Society - Secretary (2022-2022)</li>
-                </ul>
+                </div>
 
-                <h2>Course</h2>
-                <p>Bachelor of Science in Computer Science with specialization in Software Systems</p>
+                <div class="achievements">
+                    <h2>Achievements</h2>
+                    <ul>
+                        <li>Honor Student (from Elem to College)</li>
+                        <li>APC-JPCS Director of Operations (2024-)</li>
+                        <li>Animation Society - Secretary (2022-2022)</li>
+                    </ul>
+                </div>
 
+                <div class="course">
+                    <h2>Course</h2>
+                    <p>Bachelor of Science in Computer Science with specialization in Software Systems</p>
+                </div>
+
+                <div class="skills">
                 <h2>I.T. Experience</h2>
-                <ul>
-                    <li>Python</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Javascript</li>
-                </ul>
+                    <ul>
+                        <li>Python</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                    </ul>
+                </div>
 
-                <h2>Hobbies & Interests</h2>
-                <ul>
-                    <li>I love to watch movies, series, k-drama, anime and video games <strong style=color:pink>#Cinephile </strong> &#10024;</li>
-                    <li>I love going to movie theatres for film festivals &#127909;</li>
-                    <li>I love listening to music like Pop, K-Pop, OPM, Rock, Shoegaze &#9835;</li>
-                    <li>I love walking and riding the bicycle &#128690;</li>
-                    <li>I love playing badminton &#127992;</li>
-                    <li>I love meditating and journaling &#128211;</li>
-                </ul>
+                <div class="hobbies">
+                    <h2>Hobbies & Interests</h2>
+                    <ul>
+                        <li>I love to watch movies, series, k-drama, anime and video games <strong style=color:pink>#Cinephile </strong> &#10024;</li>
+                        <li>I love going to movie theatres for film festivals &#127909;</li>
+                        <li>I love listening to music like Pop, K-Pop, OPM, Rock, Shoegaze &#9835;</li>
+                        <li>I love walking and riding the bicycle &#128690;</li>
+                        <li>I love playing badminton &#127992;</li>
+                        <li>I love meditating and journaling &#128211;</li>
+                    </ul>
+                </div>
 
-                <h2>Goals in Life</h2>
-                <ul>
-                    <li>To be a software developer</li>
-                    <li>To fulfill true peace and happiness</li>
-                    <li>To achieve financial stability</li>
-                    <li>To strive for excellence</li>
-                    <li style="color:lightblue"><s><i>To have a homelab server perhaps</i></s></li>
-                </ul>
-
-                <h2>Picture Gallery</h2>
-                <img src="Picture Gallery - 1.jpg" alt="Picture Gallery - 1" style="width:300px;height:400px;">
-                <img src="Picture Gallery - 2.jpg" alt="Picture Gallery - 2 " style="width:550px;height:400px;">
-                <img src="Picture Gallery - 3.jpg" alt="Picture Gallery - 3" style="width:550px;height:400px;">
-                <img src="Picture Gallery - 5.jpg" alt="Picture Gallery - 5" style="width:600px;height:400px;">
-                <img src="Picture Gallery - 4.jpg" alt="Picture Gallery - 4" style="width:300px;height:500px;">
-                <img src="Picture Gallery - 6.jpg" alt="Picture Gallery - 6" style="width:4350px;height:500px;">
-                    </div>
+                <div class="goals">
+                    <h2>Goals in Life</h2>
+                    <ul>
+                        <li>To be a software developer</li>
+                        <li>To fulfill true peace and happiness</li>
+                        <li>To achieve financial stability</li>
+                        <li>To strive for excellence</li>
+                        <li style="color:lightblue"><s><i>To have a homelab server perhaps</i></s></li>
+                    </ul>
+                </div>
             </section>
         </main>
     </div>
 </template>
     
-    <script></script>
-    <style></style>
+<script></script>
+<style></style>
