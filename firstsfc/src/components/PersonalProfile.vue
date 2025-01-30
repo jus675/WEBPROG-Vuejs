@@ -4,7 +4,7 @@
     
     <div>
       <h2> About Me </h2>
-        <img src="Justine.png" alt="Justine" style="width:250px;height:260px">
+        <!-- <img src="Justine.png" alt="Justine" style="width:250px;height:260px"> -->
         <p>I am Justine Denise Hernandez, a 3rd year Computer Science student from SS221, currently studying at Asia Pacific College.</p>
         <p>The field of Computer Science piqued my interest as I explored interesting software and websites during the pandemic.</p>
     </div>
@@ -84,16 +84,6 @@
               <li>To strive for excellence</li>
               <li style="color:lightblue"><s><i>To have a homelab server perhaps</i></s></li>
           </ul>
-        </div>
-
-        <div>
-        <h2>Picture Gallery</h2>
-          <img src="Picture Gallery - 1.jpg" alt="Picture Gallery - 1" style="width:300px;height:400px;">
-          <img src="Picture Gallery - 2.jpg" alt="Picture Gallery - 2 " style="width:550px;height:400px;">
-          <img src="Picture Gallery - 3.jpg" alt="Picture Gallery - 3" style="width:550px;height:400px;">
-          <img src="Picture Gallery - 5.jpg" alt="Picture Gallery - 5" style="width:600px;height:400px;">
-          <img src="Picture Gallery - 4.jpg" alt="Picture Gallery - 4" style="width:300px;height:500px;">
-          <img src="Picture Gallery - 6.jpg" alt="Picture Gallery - 6" style="width:4350px;height:500px;">
         </div>
   </div>
 </template>
