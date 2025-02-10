@@ -5,10 +5,17 @@
     
   <h1>Food</h1>
   <personal-profile/> <br>
+  <country>
   <food-item/> 
   <food-item2/> 
   <food-item/>  
+  <comment-form/>
+  <comment/>
+
+  <comment-form/>
+  <comment/>
 </template>
+
 
 <script setup>
 import { ref, onMounted } from 'vue'
