@@ -12,6 +12,7 @@
   <comment-form/>
   <comment/>
 
+  </country>
   <comment-form/>
   <comment/>
 </template>
