@@ -32,4 +32,5 @@ async function getCountries() {
 onMounted(() => {
   getCountries()
 })
+
 </script>

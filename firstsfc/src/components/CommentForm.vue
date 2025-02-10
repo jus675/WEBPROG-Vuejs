@@ -22,7 +22,7 @@
   import { ref } from 'vue';
   import { supabase } from '../lib/supabaseClient'
 
-  
+  // Form data
   const name = ref('');
   const comment = ref('');
   const submissionStatus = ref(null);
@@ -33,9 +33,11 @@
   async function submitComment() {
     submissionStatus.value = "Submitting...";
     try {
-      const { error } = await supabase
-        .from(tableName)
-        .insert([{ name: name.value, comment: comment.value }]);
+      const { data, error } = await supabase
+      .from("comments")
+      .insert([{ name: name.value, comment: comment.value }]);
+    
+      console.log("Supabase Response:", data, error); // Log response
   
       if (error) {
         console.error("Error inserting comment:", error);
