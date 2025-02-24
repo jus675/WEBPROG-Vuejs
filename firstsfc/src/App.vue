@@ -11,6 +11,7 @@
   <food-item/>  
   <comment-form/>
   <comment/>
+  <rest-api/>
 
   </country>
   <comment-form/>
