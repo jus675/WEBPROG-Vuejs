@@ -5,17 +5,12 @@
     
   <h1>Food</h1>
   <personal-profile/> <br>
-  <country>
+  
   <food-item/> 
   <food-item2/> 
   <food-item/>  
-  <comment-form/>
-  <comment/>
   <rest-api/>
-
-  </country>
-  <comment-form/>
-  <comment/>
+  
 </template>
 
 
